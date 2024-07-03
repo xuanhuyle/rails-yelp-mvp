@@ -7,3 +7,8 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Restaurant.create(name: 'Les Petits Gros', address: '27 avenue Trudaine (Paris 9e)', phone_number: '09 53 94 01 31', category: 'Français')
+Restaurant.create(name: 'Shinjuku Pigalle', address: '52 rue Condorcet (Paris 9e)', phone_number: '01 42 06 18 14', category: 'Japonais')
+Restaurant.create(name: 'Le Coucou', address: '14 rue Bochart de Saron (Paris 9e)', phone_number: '01 48 74 15 78', category: 'Français')
+Restaurant.create(name: 'Café Ventura', address: '58 rue des Martyrs (Paris 9e)', phone_number: '01 40 36 21 15', category: 'Français')
+Restaurant.create(name: 'Cuoco', address: '36 rue Condorcet (Paris 9e)', phone_number: '01 40 37 35 53', category: 'Italien')
